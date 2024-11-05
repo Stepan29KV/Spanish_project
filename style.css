@@ -1,0 +1,140 @@
+@import url('./confetti.css');
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.done_container{
+    display: flex;
+    margin: 20px auto;
+    padding: 20px;
+    justify-self: center;
+}
+
+.done{
+    display: flex;
+    justify-self: start; 
+    background-image: url('done.jpg');
+    background-size: cover;     
+    width: 100px;
+    height: 100px;
+}
+
+.button {
+    background-color: antiquewhite;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-self: center;
+    font-size: 16px;
+    height: 50px;
+}
+
+
+.container{
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+
+.bailar_img{
+    background-image: url('bailar.jpg');
+    background-size: cover; 
+}
+
+.bailar_trn{
+    background-image: url('bailar_trn.jpg');
+    background-size: cover; 
+}
+
+.cantar_img{
+    background-image: url('cantar.jpg');
+    background-size: cover; 
+}
+
+.cantar_trn{
+    background-image: url('cantar_trn.jpg');
+    background-size: cover; 
+}
+
+.comer_img{
+    background-image: url('comer.jpg');
+    background-size: cover; 
+}
+
+.comer_trn{
+    background-image: url('comer_trn.jpg');
+    background-size: cover; 
+}
+
+.cortar_img{
+    background-image: url('cortar.jpg');
+    background-size: cover; 
+}
+
+.cortar_trn{
+    background-image: url('cortar_trn.jpg');
+    background-size: cover; 
+}
+
+.dormir_img{
+    background-image: url('dormir.jpg');
+    background-size: cover; 
+}
+
+.dormir_trn{
+    background-image: url('dormir_trn.jpg');
+    background-size: cover; 
+}
+
+.leer_img{
+    background-image: url('leer.jpg');
+    background-size: cover; 
+}
+
+.leer_trn{
+    background-image: url('leer_trn.jpg');
+    background-size: cover; 
+}
+
+.limpiar_img{
+    background-image: url('limpiar.jpg');
+    background-size: cover; 
+}
+
+.limpiar_trn{
+    background-image: url('limpiar_trn.jpg');
+    background-size: cover; 
+}
+
+.nadar_img{
+    background-image: url('nadar.jpg');
+    background-size: cover; 
+}
+
+.nadar_trn{
+    background-image: url('nadar_trn.jpg');
+    background-size: cover; 
+}
+
+.square_closed{
+    background-image: url('quistion.png');
+    background-size: cover; 
+}
+
